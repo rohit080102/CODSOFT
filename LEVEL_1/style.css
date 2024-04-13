@@ -308,3 +308,233 @@ a:hover {
 .about p:last-child {
     margin-bottom: 0;
 }
+
+
+.services .icon-box {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.services .icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.services .icon img {
+    color: #70b9b0;
+    font-size: 42px;
+    border-radius: 50px;
+}
+
+.services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.services .title a {
+    color: #343a40;
+    transition: 0.3s;
+}
+
+.services .icon-box:hover .title a {
+    color: #70b9b0;
+}
+
+
+
+.team .member {
+    text-align: center;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    padding: 30px 20px;
+    background: #fff;
+}
+
+.team .member img {
+    max-width: 60%;
+    border-radius: 50%;
+    margin: 0 0 30px 0;
+}
+
+.team .member h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+
+.team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+}
+
+.team .member p {
+    padding-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: #aaaaaa;
+}
+
+.team .member .social {
+    margin-top: 15px;
+}
+
+.team .member .social a {
+    color: #92cac3;
+    transition: 0.3s;
+}
+
+.team .member .social a:hover {
+    color: #3c8b81;
+}
+
+.team .member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+}
+
+
+
+
+
+
+.contact .contact-about h3 {
+    font-size: 36px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #70b9b0;
+}
+
+.contact .contact-about p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Lato", sans-serif;
+    color: #888;
+}
+
+.contact .social-links {
+    padding-bottom: 20px;
+}
+
+.contact .social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background: #fff;
+    color: #70b9b0;
+    line-height: 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    border: 1px solid #70b9b0;
+}
+
+.contact .social-links a:hover {
+    background: #70b9b0;
+    color: #fff;
+}
+
+.contact .info {
+    color: #777;
+}
+
+.contact .info i {
+    font-size: 32px;
+    color: #70b9b0;
+    float: left;
+    line-height: 1;
+}
+
+.contact .info p {
+    padding: 0 0 10px 42px;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.contact .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.contact .error-message br+br {
+    margin-top: 25px;
+}
+
+.contact .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.contact .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.contact .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+}
+
+.contact input,
+.contact textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.contact button[type=submit] {
+    background: #70b9b0;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.contact button[type=submit]:hover {
+    background: #92cac3;
+}
+
+
+#footer {
+    background: #073839;
+    padding: 30px 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+#footer .copyright {
+    text-align: center;
+}
+
+#footer .credits {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+}
